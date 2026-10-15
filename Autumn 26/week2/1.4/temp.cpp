@@ -7,5 +7,5 @@ int main(){
 
     Fahrenheit = celsius * 1.8 + 32;
 
-    std::cout << "Your temperatere in degrees Fahrenheit is this " << Fahrenheit;
+    std::cout << "Your temperatere in degrees Fahrenheit is this:  " << Fahrenheit;
 }
