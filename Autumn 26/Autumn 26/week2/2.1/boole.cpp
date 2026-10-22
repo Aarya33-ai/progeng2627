@@ -1,0 +1,36 @@
+#include <iostream>
+
+int main(){
+    int n, rem;
+
+    std::cout << "please enter a number" << std::endl;
+    std::cin >> n;
+
+    rem = n % 2;
+
+    bool is_even;
+    // yes/no (true/false) values have also a type, called bool
+
+    is_even = (rem == 0);
+    // read this right to left:
+    // is the value of rem equal to 0?
+    // store the corresponding yes/no answer
+    // in the bool variable is_even
+
+    // we wouldn't normally write this program like this
+    // this is just to show what is going on with the yes/no values
+    // and it will become more useful later on
+
+    if(is_even){
+        // in this condition we use a 
+        // yes/no (bool) value 
+        // previously computed
+        // instead of a yes/no (bool) expression 
+        // as in the previous example
+
+        std::cout << "the number is even" << std::endl;
+    }
+    else{
+        std::cout << "the number is odd" << std::endl;
+    }
+}
